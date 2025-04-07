@@ -1,0 +1,22 @@
+Algoritmo Evaluar_si_un_año_es_bisiesto
+	
+	Escribir "ingreso de un año"
+	leer año;
+	
+	Si año %4 = 0 Entonces
+		Escribir "es bisiesto"
+	SiNo
+		Escribir "no es Bisiesto"
+	Fin Si
+	
+	si año %100 = 0 Entonces 
+		si año %400 = 0 Entonces
+			Escribir "el año es bisiesto"
+		sino 
+			Escribir "el año no es bisiesto"
+		FinSi
+	FinSi
+	
+FinAlgoritmo
+
+	
